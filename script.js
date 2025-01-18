@@ -32,7 +32,7 @@ function formatNumber(number) {
 window.onload = function() {
     let balance = parseFloat(localStorage.getItem("balance")); // Получаем баланс из localStorage
     if (isNaN(balance)) { // Проверяем, есть ли баланс
-        balance = 47000000000000; // Устанавливаем начальный баланс, если его нет
+        balance = 470765765998443; // Устанавливаем начальный баланс, если его нет
         localStorage.setItem("balance", balance);
     }
     document.getElementById("balance").innerText = formatNumber(balance); // Отображаем баланс
